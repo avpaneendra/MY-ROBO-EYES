@@ -74,7 +74,16 @@ Dual-eye synchronization
 Particle engine (rain, fire, hearts)
 💡 Inspiration
 
-Inspired by EMO robot UI design, aiming to replicate:
+Inspired by  robot UI design, aiming to replicate:
+1. Pin Mapping
+You need to map Arduino pins (5, 6, 9, 10) to Pi GPIO pins. Let's assume:
+
+A1A = GPIO 17
+A1B = GPIO 27
+B1A = GPIO 22
+B1B = GPIO 23
+You can adjust these if you wire differently.
+
 
 Expressive robotic eyes
 Minimalist OLED animations
